@@ -1,0 +1,39 @@
+body {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    font-variant: small-caps;
+    font-size: 120%;
+}
+
+header img.logo {
+    height: 3rem;
+}
+
+.img-container {
+    position: relative;
+    color: white;
+}
+
+.img-container img {
+    filter: brightness(65%);
+}
+
+.img-container p {
+    position: absolute;
+    font-size: 5vw;
+    font-variant: small-caps;
+    top: 50%;
+    transform: translate(10%, -50%);
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-auto-flow: row;
+}
