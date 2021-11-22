@@ -1,114 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JW9L0XPPJD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JW9L0XPPJD');
-</script>
-
-
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robofruit</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-<body id="page-top">
-    <header class="p-3 bg-dark text-white">
-        <div class="container">
+   <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JW9L0XPPJD"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'G-JW9L0XPPJD');
+      </script>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Robofruit</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+   </head>
+   <body id="page-top">
+      <header class="p-3 bg-dark text-white">
+         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-between">
-                <a href="#page-top">
-                    <img src="/img/CERES.png" alt="CERES logo" class="logo">
-                </a>
-
-                <a href="#page-top">
-                    <img src="/img/robofruit_logo.png" alt="Robofruit logo" class="logo">
-                </a>
-
-                <ul class="nav mb-2 mb-md-0">
-                    <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
-                    <li><a href="#contacts" class="nav-link px-2 text-white">Contacts</a></li>
-                </ul>
+               <a href="#page-top">
+               <img src="/img/CERES.png" alt="CERES logo" class="logo">
+               </a>
+               <a href="#page-top">
+               <img src="/img/robofruit_logo.png" alt="Robofruit logo" class="logo">
+               </a>
+               <ul class="nav mb-2 mb-md-0">
+                  <li><a href="#about" class="nav-link px-2 text-white">About</a></li>
+                  <li><a href="#contacts" class="nav-link px-2 text-white">Contacts</a></li>
+               </ul>
             </div>
-        </div>
-    </header>
-
-    <div class="img-container">
-        <picture>
+         </div>
+      </header>
+      <div class="img-container">
+         <picture>
             <source srcset="/img/uph_cropped.webp" type="image/webp">
-            <source srcset="/img/uph_cropped.jpg" type="image/jpeg"> 
+            <source srcset="/img/uph_cropped.jpg" type="image/jpeg">
             <img class="img-fluid d-none d-md-block" src="/img/uph_cropped.jpg" alt="Bacground image">
-        </picture>
-        <picture>
+         </picture>
+         <picture>
             <source srcset="/img/uph.webp" type="image/webp">
-            <source srcset="/img/uph.jpg" type="image/jpeg"> 
+            <source srcset="/img/uph.jpg" type="image/jpeg">
             <img class="img-fluid d-md-none" src="/img/uph.jpg" alt="Bacground image">
-        </picture>
-        <p>Autonomous Robot<br>For Selective Harvesting<br>Of Strawberries</p>
-    </div>
-
-    <main>
-        <div class="container">
+         </picture>
+         <p>Autonomous Robot<br>For Selective Harvesting<br>Of Strawberries</p>
+      </div>
+      <main>
+         <div class="container">
             <section class="mt-5">
-                <div class="heading text-center">
-                    <h2 id="about" class="mb-2"> About us</h2>
-                </div>
-                <p>
-                    This project was funded by <a href="https://www.ceresagritech.org/projects/robotic-fruit-picking" >CERES Agri-tech</a>. 
-                    Dr Amir Ghalamzan, Dr Soran Parsa, Dr. Rick Debnath from the University of Lincoln in collaboration with a team from MTC led by Matt Rayment and Karol Jankin developed the ROBOFRUITS. Mr Arshad Khan also helped with the field demonstrations. 
-                    <br> Many horticultural crops, such as strawberries and tomatoes, traditionally rely on hand picking to prevent bruising during harvest. However, decreasing labour availability and rapidly rising costs have resulted in a labour crisis that threatens productivity across the UK and globally. Robotic fruit picking is seen as the technological solution to this crisis. Despite demand from growers, however, current solutions are not yet commercially viable because they cannot pick the whole crop.<br>
-                    This Ceres project is developing a new robotic fruit picking head that can harvest many types of fruit. This complete picking solution will identify and pick delicate, ripe fruits growing in complex, dense clusters without bruising them. This technology will have significant benefits for growers by reducing harvesting costs and de-risking labour availability and productivity.                     
-                </p>
+               <div class="heading text-center">
+                  <h2 id="about" class="mb-2"> About us</h2>
+               </div>
+               <p>
+                  This project was funded by <a href="https://www.ceresagritech.org/projects/robotic-fruit-picking" >CERES Agri-tech</a>. 
+                  Dr Amir Ghalamzan, Dr Soran Parsa, Dr. Rick Debnath from the University of Lincoln in collaboration with a team from MTC led by Matt Rayment and Karol Jankin developed the ROBOFRUITS. Mr Arshad Khan also helped with the field demonstrations. 
+                  <br> Many horticultural crops, such as strawberries and tomatoes, traditionally rely on hand picking to prevent bruising during harvest. However, decreasing labour availability and rapidly rising costs have resulted in a labour crisis that threatens productivity across the UK and globally. Robotic fruit picking is seen as the technological solution to this crisis. Despite demand from growers, however, current solutions are not yet commercially viable because they cannot pick the whole crop.<br>
+                  This Ceres project is developing a new robotic fruit picking head that can harvest many types of fruit. This complete picking solution will identify and pick delicate, ripe fruits growing in complex, dense clusters without bruising them. This technology will have significant benefits for growers by reducing harvesting costs and de-risking labour availability and productivity.                     
+               </p>
             </section>
-                        <section class="mt-5">
-                <p>
-                    
-                </p>
+
+               <div class="heading text-center">
+                  <h2 id="about" class="mb-2"> ROBOFRUITS at COP26</h2>
+               </div>
+            <p>
+               The UN Climate Change Conference takes place in Glasgow from 31 October and brings together nations to accelerate action towards the goals of the Paris Agreement and the UN Framework Convention on Climate Change.
+               Those visiting the Green Zone will be able to see the University’s ‘Robofruit‘, one of many state-of-the-art agri-tech projects, which uses AI and novel picking technology to harvest ripe fruit. ‘Robofruit’ has long-term environmental benefits including reduced food waste by better utilising crops and will also help to address labour shortages, paving the way for large scale use of robotics and AI in agriculture. The COP26 exhibition will also showcase various field activities – including agri-forestry, robotic harvesting and crop care as well as packaging, digitalization and the employment of artificial intelligence.
+               Dr Amir Ghalamzan-Esfahani, Associate Professor in Robotics at the University of Lincoln, who will be showcasing Robofruit, said: We are demonstrating to the world how robotics and automation are shaping the future of UK and international farming and food production. The University of Lincoln is at the forefront of the UK’s agri-tech and agri-food developments, with our research and teaching supporting innovation and developing workforce skills alongside partners across our food and farming sectors. Together, we aim for a net zero emissions across the industry. Professor Simon Pearson, Director of the University’s Lincoln Institute for Agri-food Technology, said: The Lincoln Institute for Agri-Food Technology is supporting and enhancing the future of food and agriculture productivity, efficiency, and sustainability through research, education, and technology. We are honoured to be selected as one of the few UK universities to be selected by Government to showcase at COP26.
+               The University of Lincoln will be exhibiting at COP26 between 1 and 12 November. This news has been covered widely at <a href="https://www.midlandsengine.org/university-of-lincoln-showcases-agri-robotics-at-cop26/">midlandsengine.org</a>, <a href="https://www.lincolnshirelive.co.uk/news/lincoln-news/university-lincoln-exhibit-robots-cop26-6133240">lincolnshirelive</a>, <a href="https://www.lincoln.ac.uk/news/2021/10/1725.asp">Lincoln.ac.uk</a>, <a href="https://thelincolnite.co.uk/2021/10/meet-robofruit-the-net-zero-robot-farmer-developed-at-the-university-of-lincoln/">thelincolnite</a>, <a href="https://www.hortweek.com/university-lincoln-fruit-robotics-feature-cop26/fresh-produce/article/1731755">hortweek.com</a>, and <a href="https://www.farminguk.com/news/video-uk-agri-tech-project-to-be-shown-at-cop26_59244.html">farminuk</a>.
+            </p>
+            <section class="mt-5">
+            <p>
+               <!--Photo carousel-->
+            <section class="page-section alternate-bg">
+               <div class="heading-container text-center">
+                  <h2 class="section-heading text-uppercase">Photo gallery</h2>
+               </div>
+               <div class="container">
+                  <div id="photo-carousel" class="carousel carousel-light slide" data-bs-ride="carousel">
+                     <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#photo-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#photo-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#photo-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                     </div>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_1" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_2" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_3" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_4" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_5" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_6" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_7" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_8" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_9" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_10" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_11" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_12" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_13" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_14" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 02.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_15" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 03.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_16" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 01.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_17" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 04.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_18" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 04.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_19" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 05.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_20" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 06.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_21" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 07.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_22" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 09.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_23" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 08.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_24" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 10.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_25" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 12.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/cop26_26" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 03.11.2021</h5>
+                              <p></p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/AbdullaShahid.JPG" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 04.11.2021</h5>
+                              <p>Abdulla Shahid: President of the United Nations General Assembly</p>
+                           </div>
+                        </div>
+                        <div class="carousel-item active">
+                           <img src="/assets/img/cop26/RobbinMoore_MP.JPG" class="d-block w-100" alt="Group photo 1">
+                           <div class="carousel-caption fill-bg">
+                              <h5>IML-Robofruit exhibiting at COP26 11.11.2021</h5>
+                              <p>Robbin Moore Member of Parlimant</p>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-bs-target="#photo-carousel" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#photo-carousel" data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                     </button>
+                  </div>
+               </div>
+               </p>
             </section>
             <section class="mt-5 mb-5">
-                <div class="heading text-center">
-                    <h2 id="contacts" class="mb-2">Contacts</h2>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <div class="contact-container">
-                        <i class="fas fa-envelope fa-2x align-middle"></i> <a href="mailto:contact@robofruits.com">contact@robofruits.com</a> 
-                        <!-- i class="fas fa-phone fa-2x align-middle"></i> <a href="tel:+4407523250629">+44 (0)7523250629</a -->
-                        <i class="fas fa-map-marker-alt fa-2x align-middle"></i> College of Science, University of Lincoln, UK                                               
-                        <i class="fas fa-phone fa-2x align-middle"></i> <a href="https://www.linkedin.com/in/amir-ghalamzan/">Linkedin</a>
-                    </div>
-                </div>
+               <div class="heading text-center">
+                  <h2 id="contacts" class="mb-2">Contacts</h2>
+               </div>
+               <div class="d-flex justify-content-center">
+                  <div class="contact-container">
+                     <i class="fas fa-envelope fa-2x align-middle"></i> <a href="mailto:contact@robofruits.com">contact@robofruits.com</a> 
+                     <!-- i class="fas fa-phone fa-2x align-middle"></i> <a href="tel:+4407523250629">+44 (0)7523250629</a -->
+                     <i class="fas fa-map-marker-alt fa-2x align-middle"></i> College of Science, University of Lincoln, UK                                               
+                     <i class="fas fa-phone fa-2x align-middle"></i> <a href="https://www.linkedin.com/in/amir-ghalamzan/">Linkedin</a>
+                  </div>
+               </div>
             </section>
             <section class="mt-5 mb-5">
-                    <li><a href="accessibility.html" > Accessibility</a></li>
-                    <li><a href="cookies.html" >Cookies</a></li>
-                </ul>
-
-
+               <li><a href="accessibility.html" > Accessibility</a></li>
+               <li><a href="cookies.html" >Cookies</a></li>
+               </ul>
             </section>
-
-
-        </div>
-    </main>
-
-    <footer class="footer bg-dark text-white pt-2 pb-1">
-        <p class="text-center">
+         </div>
+      </main>
+      <footer class="footer bg-dark text-white pt-2 pb-1">
+         <p class="text-center">
             Copyright &copy; 2021 by ROBOFRUITS. All rights reserved. We love to help a green environment.
-        </p>
-    </footer>
-
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+         </p>
+      </footer>
+      <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   </body>
 </html>
